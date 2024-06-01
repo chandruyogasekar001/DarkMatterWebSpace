@@ -36,3 +36,107 @@
     transform: rotate(360deg);
   }
 }
+/* Base styles */
+body {
+  font-family: sans-serif;
+  background-color: #000000; /* Light gray background */
+  color: #333; /* Dark text */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto; /* Center content horizontally */
+  padding: 20px;
+}
+
+/* Search bar styles */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #282c34;
+}
+
+.search-bar input {
+  padding: 10px;
+  border: 1px solid #535353; /* Light gray border */
+  border-radius: 4px; /* Rounded corners */
+  flex-grow: 1; /* Expand to fill available space */
+  background: aliceblue;
+}
+
+/* App icon styles */
+.app-container {
+  display: flex;
+  flex-wrap: wrap; /* Wrap icons to multiple lines */
+  justify-content: center; /* Distribute icons evenly */
+}
+
+.app-icon {
+  text-align: center;
+  margin: 10px;
+  padding: 25px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: all 0.2s ease-in-out; /* Smooth hover effect */
+  cursor: pointer; /* Indicate clickable element */
+}
+
+.app-icon img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover; /* Maintain aspect ratio */
+  margin-bottom: 5px;
+}
+
+.app-icon:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Emphasize hover effect */
+}
+
+/* Floating button styles (optional) */
+.floating-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 50%; /* Circular button */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  transition: all 0.2s ease-in-out;
+  cursor: pointer; /* Indicate clickable element */
+}
+
+.floating-button:hover {
+  background-color: #0069d9; /* Darker blue on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Stronger hover effect */
+}
+
+/* About Us link styles (optional) */
+.about-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  color: #333; /* Dark text */
+  text-decoration: none; /* Remove underline */
+}
+
+.about-link:hover {
+  color: #007bff; /* Blue on hover */
+}
+.hed{
+  color: aliceblue;
+  font-size: 40px;
+}
+.profile{
+  width: 70px;
+    height: 50px;
+    background: aliceblue;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
