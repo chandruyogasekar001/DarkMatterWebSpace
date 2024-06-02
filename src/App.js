@@ -6,7 +6,7 @@ import AppDetails from './AppDetails'; // Imported AppDetails component
 import './App.css';
 import icon1 from './icons8-alien-48.png';
 import icon2 from './icons8-google-blog-search-48.png';
-import icon3 from './icons8-music-60.png';
+import icon3 from './icons8-airpods-pro-max-48.png';
 import icon4 from './icons8-resume-48.png';
 import icon5 from './icons8-human-48.png';
 
