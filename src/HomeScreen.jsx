@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import SearchBar from './SearchBar';
-
+import icon5 from './icons8-human-48.png';
 function HomeScreen({ apps, onSearch }) {
   const [searchTerm, setSearchTerm] = React.useState('');
   const navigate = useNavigate();
@@ -34,7 +34,10 @@ function HomeScreen({ apps, onSearch }) {
         ))}
       </div>
       <div  className='profile'>
-        <a href='https://chandru-portfolio-react-app.vercel.app/' target='_blank' rel="noopener noreferrer" >portfolio</a>
+        <a href='https://chandru-portfolio-react-app.vercel.app/' target='_blank' rel="noopener noreferrer">
+    <img src={icon5} alt="Portfolio Icon" />
+    Portfolio
+</a>
       </div>
     </div>
   );
