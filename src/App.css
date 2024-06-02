@@ -133,10 +133,12 @@ body {
   font-size: 40px;
 }
 .profile{
-  width: 70px;
+    width: 70px;
     height: 50px;
     background: aliceblue;
     position: absolute;
     bottom: 20px;
     right: 20px;
+    
+    text-decoration: none;
 }
