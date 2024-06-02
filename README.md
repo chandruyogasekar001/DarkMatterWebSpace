@@ -2,8 +2,8 @@
 
 I have displayed all my apps I have developed in this page 
 
-
-#This project is create using REACT JS
+#This project is create using 
+# REACT JS
 It is the landing page for all my project apps
 
 WEB APP 
