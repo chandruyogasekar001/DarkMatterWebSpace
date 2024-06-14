@@ -42,10 +42,7 @@ function HomeScreen({ apps, onSearch }) {
 </a>
 
 
-        <a href='https://chandru-portfolio-react-app.vercel.app/' target='_blank' rel="noopener noreferrer">
-    <img src={icon5} alt="Portfolio Icon" />
-    Portfolio
-</a>
+   
 
       </div>
     </div>
