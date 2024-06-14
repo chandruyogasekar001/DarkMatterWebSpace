@@ -34,12 +34,19 @@ function HomeScreen({ apps, onSearch }) {
         ))}
       </div>
       <div  className='profile'>
+<<<<<<< HEAD
       
       <a href='https://chandru-portfolio-react-app.vercel.app/' target='_blank' rel="noopener noreferrer">
     <img src={icon5} alt="Portfolio Icon" />
     Portfolio
 </a>
 
+=======
+        <a href='https://chandru-portfolio-react-app.vercel.app/' target='_blank' rel="noopener noreferrer">
+    <img src={icon5} alt="Portfolio Icon" />
+    Portfolio
+</a>
+>>>>>>> eb9f5a670dc1dff8bcc52c8aa532898fddde41d5
       </div>
     </div>
   );
